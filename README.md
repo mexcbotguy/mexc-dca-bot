@@ -86,19 +86,20 @@ Each safety order is larger than the last, weighted toward lower prices:
 ## Setup
 
 1. Clone this repository
+   ```git clone https://github.com/mexcbotguy/mexc-dca-bot```
 
-2. Install dependencies:
+3. Install dependencies:
    ```bash
    cd mexc-dca-bot
    npm install
    ```
 
-3. Create your configuration:
+4. Create your configuration:
    ```bash
    cp .env.example .env
    ```
 
-4. Edit `.env` with your settings:
+5. Edit `.env` with your settings:
    - Add your MEXC API key and secret
    - Choose your trading pair (default: BTCUSDT)
    - Configure order sizes and safety order parameters
