@@ -1,0 +1,17 @@
+{
+  "name": "mexc-dca-bot",
+  "version": "1.0.0",
+  "description": "DCA (Dollar Cost Averaging) trading bot for MEXC exchange with safety orders",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dry-run": "DRY_RUN=true node index.js"
+  },
+  "keywords": ["mexc", "dca", "trading", "bot", "crypto"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "mexc-sdk": "github:mrmikeo/mexc-api-sdk"
+  }
+}
